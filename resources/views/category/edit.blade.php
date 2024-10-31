@@ -25,7 +25,7 @@
                         <div class="mb-3">
                             <label >Description</label>
                     
-                            <textarea name="description"  rows="3" class="form-control"> {!!$category->Description !!}</textarea>
+                            <textarea name="description"  rows="3" class="form-control">  {!!$category->Description !!}</textarea>
                             @error('description')<span class="text-danger"> {{$message}}
                             @enderror
                         </div>
@@ -37,7 +37,7 @@
                             @enderror
                         </div>
                         <div class="mb-3">
-                            <button type="submit" class="btn btn-primary">Update</button>
+                            <button type="submit" class="btn btn-primary">Update</button>   
                         </div>
                     </form>
                 </div>

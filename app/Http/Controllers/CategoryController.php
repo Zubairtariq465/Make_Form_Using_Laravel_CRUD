@@ -79,13 +79,13 @@ class CategoryController extends Controller
          $category->update([
             'name'=> $request->name,
             'description'=> $request->Description,
-            'status'=> $request->status==true ? 1:0, 
+            'status'=> $request->status==true ? 1:0,
          ]);
          return redirect('/category')->with('status','Category Updated Succesfully');
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Remove the specified resource from storage.   
      */
     public function destroy(Category $category)
     {
