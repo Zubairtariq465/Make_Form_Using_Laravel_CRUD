@@ -93,3 +93,4 @@ class CategoryController extends Controller
         return redirect('/category')->with('status','Category Deleted Succesfully');
     }
 }
+

@@ -35,8 +35,8 @@
                             <input type="checkbox" name="status" {{$category->status == 1 ? 'checked':''}} style="width:30px;height:30px;"/>   Cheked=visible, unchecked=hidden
                             @error('status')<span class="text-danger"> {{$message}}
                             @enderror
-                        </div>
-                        <div class="mb-3">
+                    
+                    <div class="mb-3">
                             <button type="submit" class="btn btn-primary">Update</button>   
                         </div>
                     </form>

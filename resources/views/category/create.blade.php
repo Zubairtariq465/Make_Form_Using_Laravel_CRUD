@@ -35,7 +35,7 @@
                             @error('status')<span class="text-danger"> {{$message}}
                             @enderror
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-3">                              
                             <button type="submit" class="btn btn-primary">Save</button>
                         </div>
                     </form>

@@ -16,8 +16,8 @@
                 <div class="card-header">
                     <h4>Categories List
                         <a href="{{url('category/create')}}" class="btn btn-primary  float-end">Add Category</a>
-                    </h4>
-                </div>
+                    </h4>    
+                </div> 
                 <div class="card-body">
                     <table class="table table-stiped table-bordered">
                     <thead>
@@ -25,7 +25,7 @@
                             <th>Id</th>
                             <th>Name</th>
                             <th>Description</th>
-                            <th>Status</th>
+                           <th>Status</th>
                             <th>Action </th>
                             
                         </tr>
